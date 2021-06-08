@@ -48,3 +48,7 @@ Carthage/Build
 
 # AppCode
 .idea/
+
+# Swift Package Manager
+.swiftpm
+Package.resolved
