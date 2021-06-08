@@ -1,6 +1,8 @@
 import Foundation
 
-let voucherifyServerEndpoint = "https://api.voucherify.io"
+// Note: Configuration.server is not currently propagated down to the http client correctly
+// so pointing it at us1 here, since that is what we need
+let voucherifyServerEndpoint = "https://us1.api.voucherify.io"
 let voucherifyChannelName = "Swift-SDK"
 let voucherifyDefaultOrigin = "http://voucherify-swift"
 
